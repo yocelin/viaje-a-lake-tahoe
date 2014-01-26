@@ -1,28 +1,52 @@
-== README
+rails s: sites
+irb: interactive ruby shell
+''= string numbers, letlers, name, sintax, puede ser doble comidda, o una, pero la doble coma te permite meter codigo
++ - para borrar
+[]= arraw, listado de palabras
+control c para borrar
+.each= it does somehthing each time, needs something to associate
+control k para borrar
+.lenght: te dice la longitud de la cadena array..
+.methods (te dice todas las herramientaws
+ q puede s usar, herramientaws)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ parra saber el singnificado de cada herraemta ruby-doc.org
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ up and down flechas, para repetir la escirtura o lo q pusiste
+ array.new te trae nuevos corchetes
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+class es un objeto con caract, extensiones
+
+
+if my variable , else si no otra condicion
+
+nil me dijiste una deficinion no accion
+
+
+string and array los puedes pegar
+
+def.- definir palabras como una variable... le pnes nombre
+
+
+loop grupo de elmentos para pegarlo a cada momento... q se repita
+
+# diccionario
+
+hash es como una cadena de cosas diferentes, con valores
+
+
+rails server
+html.- codigos en internet
+css.- como ordenar el codigo
+javascript.- interactuar con la web, cada buscador lo busque igual... te redireccione.
+ruby code
+
+
+url.- unicque resource locator... sabe donde esta en el servidor
+
+git.- recuerda los cambios que hiciste
+
+tree house lugar para estudiar html aprender, y server
+
+

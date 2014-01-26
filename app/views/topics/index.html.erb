@@ -1,5 +1,8 @@
-<h1>Listing topics</h1>
-<h2><%=@subtitle%></h2>
+<div class="jumbotron" style="margin: 20px auto; width:750px;">
+  <div class="container">
+<h1 style="font-family:Verdana;">Viaje a Lake Tahoe</h1>
+<h2>Martecitas 2014</h2>
+<%= image_tag "martecitas.jpg", height:200, style: "margin: 0 auto; display: block;" %>
 <table>
   <thead>
     <tr>
@@ -17,7 +20,7 @@
     <td><%= topic.title %></td>
     <td><%= topic.description %></td>
     <td><%= pluralize(topic.votes.count, "vote") %></td>
-    <td><%= button_to '+1', upvote_topic_path(topic), method: :post %></td>
+    <td><%= button_to '+1', upvote_topic_path(topic), method: :post, class: "btn btn-info" %></td>
     <td><%= link_to 'Show', topic %></td>
     <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
     <td><%= link_to 'Destroy', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -29,3 +32,5 @@
 <br>
 
 <%= link_to 'New Topic', new_topic_path %>
+</div>
+</div>
